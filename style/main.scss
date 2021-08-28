@@ -1,6 +1,9 @@
 .box{
     height: 60px;
     background-color: rgb(218, 216, 216);
+    position: sticky;
+    top: 0;
+    z-index: 1;
    ul{
     display: flex;
    }
