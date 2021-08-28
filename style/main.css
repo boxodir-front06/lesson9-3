@@ -1,0 +1,163 @@
+.box {
+  height: 60px;
+  background-color: #dad8d8;
+}
+
+.box ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.box li {
+  list-style: none;
+  padding-left: 50px;
+  font-size: 20px;
+  padding-top: 15px;
+}
+
+.box1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 850px;
+  margin-top: 100px;
+}
+
+.box1 img {
+  width: 350px;
+  height: 350px;
+  margin-left: 50px;
+}
+
+.box1 input {
+  width: 430px;
+  height: 40px;
+  outline: 1px solid white;
+}
+
+.box1 span {
+  display: block;
+  font-size: 30px;
+}
+
+.box1 button {
+  margin-top: 30px;
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  color: white;
+  background-color: #1eff00;
+  border-radius: 5px;
+}
+
+.clr1 {
+  height: 200px;
+  background-color: aquamarine;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
+.clr1 h1 {
+  padding-top: 20px;
+}
+
+.clr1 p {
+  padding-top: 10px;
+}
+
+.clr1 .dis {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.clr1 .but1 {
+  background-color: navy;
+  margin-top: 60px;
+}
+
+.clr1 .but2 {
+  background-color: red;
+}
+
+.clr1 .but3 {
+  background-color: skyblue;
+}
+
+.clr1 .but4 {
+  background-color: slateblue;
+}
+
+.clr1 .boxo {
+  background-color: orange;
+  border: 1px solid orange;
+  cursor: pointer;
+}
+
+.boxo:hover {
+  -webkit-box-shadow: 5px 5px 10px orange;
+          box-shadow: 5px 5px 10px orange;
+}
+
+.boxo:focus {
+  background-color: red;
+  -webkit-box-shadow: 5px 5px 10px red;
+          box-shadow: 5px 5px 10px red;
+}
+
+.btn:hover {
+  -webkit-box-shadow: 5px 5px 10px lime;
+          box-shadow: 5px 5px 10px lime;
+}
+
+.btn:focus {
+  background-color: red;
+  -webkit-box-shadow: 5px 5px 10px red;
+          box-shadow: 5px 5px 10px red;
+}
+
+.but1:hover {
+  -webkit-box-shadow: 5px 5px 10px navy;
+          box-shadow: 5px 5px 10px navy;
+}
+
+.but1:focus {
+  background-color: #02ff02;
+  -webkit-box-shadow: 5px 5px 10px #02ff02;
+          box-shadow: 5px 5px 10px #02ff02;
+}
+
+.but2:hover {
+  -webkit-box-shadow: 5px 5px 10px red;
+          box-shadow: 5px 5px 10px red;
+}
+
+.but2:focus {
+  background-color: #02ff02;
+  -webkit-box-shadow: 5px 5px 10px #02ff02;
+          box-shadow: 5px 5px 10px #02ff02;
+}
+
+.but3:hover {
+  -webkit-box-shadow: 5px 5px 10px skyblue;
+          box-shadow: 5px 5px 10px skyblue;
+}
+
+.but3:focus {
+  background-color: #02ff02;
+  -webkit-box-shadow: 5px 5px 10px #02ff02;
+          box-shadow: 5px 5px 10px #02ff02;
+}
+
+.but4:hover {
+  -webkit-box-shadow: 5px 5px 10px slateblue;
+          box-shadow: 5px 5px 10px slateblue;
+}
+
+.but4:focus {
+  background-color: #02ff02;
+  -webkit-box-shadow: 5px 5px 10px #02ff02;
+          box-shadow: 5px 5px 10px #02ff02;
+}
+/*# sourceMappingURL=main.css.map */

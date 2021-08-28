@@ -1,0 +1,117 @@
+.box{
+    height: 60px;
+    background-color: rgb(218, 216, 216);
+   ul{
+    display: flex;
+   }
+    li{
+        list-style: none;
+        padding-left: 50px;
+        font-size: 20px;
+        padding-top: 15px;
+    }
+}
+.box1{
+    display: flex;
+    height: 850px;
+    margin-top: 100px;
+    img{
+        width: 350px;
+        height: 350px;
+        margin-left: 50px;
+    }
+    input{
+        width: 430px;
+        height: 40px;
+        outline: 1px solid white;
+    }
+    span{
+       display: block;
+        font-size: 30px;
+    }
+    button{
+        margin-top: 30px;
+        width: 200px;
+        height: 50px;
+        font-size: 20px;
+        color: white;
+        background-color: rgb(30, 255, 0);
+        border-radius: 5px;
+    }
+}
+.clr1{
+    height: 200px;
+    background-color: aquamarine;
+    border-radius: 5px;
+    margin-top: 50px;
+    h1{
+        padding-top: 20px;
+    }
+    p{
+        padding-top: 10px;
+    }
+    .dis{
+        display: flex; 
+    }
+    .but1{
+        background-color: navy;
+        margin-top: 60px;
+    }
+    .but2{
+        background-color: red;
+    }
+    .but3{
+        background-color: skyblue;
+    }
+    .but4{
+        background-color: slateblue;
+    }
+    .boxo{
+        background-color: orange;
+        border: 1px solid orange;
+        cursor: pointer;
+    }
+}
+.boxo:hover{
+    box-shadow: 5px 5px 10px orange;
+}
+.boxo:focus{
+     background-color: red;
+     box-shadow: 5px 5px 10px red;
+}
+.btn:hover{
+    box-shadow: 5px 5px 10px rgb(0, 255, 0);
+}
+.btn:focus{
+    background-color: red;
+    box-shadow: 5px 5px 10px red;
+}
+.but1:hover{
+ box-shadow: 5px 5px 10px navy ;
+} 
+.but1:focus{
+    background-color: rgb(2, 255, 2);
+    box-shadow: 5px 5px 10px rgb(2, 255, 2);
+   }
+  .but2:hover{
+    box-shadow: 5px 5px 10px red ;
+   }
+   .but2:focus{
+    background-color: rgb(2, 255, 2);
+    box-shadow: 5px 5px 10px rgb(2, 255, 2);
+   }
+   .but3:hover{
+    box-shadow: 5px 5px 10px skyblue ;
+   }
+   .but3:focus{
+    background-color: rgb(2, 255, 2);
+    box-shadow: 5px 5px 10px rgb(2, 255, 2);
+   }
+   .but4:hover{
+    box-shadow: 5px 5px 10px slateblue ;
+   }
+   .but4:focus{
+    background-color: rgb(2, 255, 2);
+    box-shadow: 5px 5px 10px rgb(2, 255, 2);
+   }
+
